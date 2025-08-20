@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: light dark; }
+body { @apply bg-gray-50 text-gray-900 dark:bg-zinc-950 dark:text-zinc-100; }
+* { box-sizing: border-box; }
+code { @apply px-1 rounded bg-gray-100 dark:bg-zinc-800; }
+pre { @apply whitespace-pre-wrap; }
